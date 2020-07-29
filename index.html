@@ -16,7 +16,76 @@
 
     </head>
     <body>
+        <!--Header of webpage-->
+        <header class="title-container container-fluid">
+            <h1>New York Times Search</h1>
+        </header>
 
+        <!-----Search Parameters Section----->
+        <div class="input-container container-fluid">
+            <div class="card" style="width: 100%;">
+                <div class="card-header" style="font-weight: bold;">
+                  Search Parameters
+                </div>
+
+                <!--Search Term text box-->
+                <div class="user-input form-group">
+                    <label for="exampleInputEmail1">Search Term: </label>
+                    <input type="email" class="form-control" id="search-term exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+
+                <!--Number Of Records to Retrieve text box-->
+                <div class="user-input form-group">
+                    <label for="exampleFormControlSelect1">Number Of Records to Retrieve:</label>
+                    <select class="form-control" id="number-records exampleFormControlSelect1">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+
+                  <!--start year text box-->
+                  <div class="user-input form-group">
+                    <label for="exampleInputEmail1">Start Year(Optional):</label>
+                    <input type="email" class="form-control" id="start-year exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+
+                <!--Number Of Records to Retrieve text box-->
+                <div class="user-input form-group">
+                    <label for="exampleInputEmail1">End Year(Optional):</label>
+                    <input type="email" class="form-control" id="end-year exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+
+                <!--Search Button-->
+                <div class="row">
+                    <div class="col-ls-2">
+                        <button type="button" class="btn btn-light" id="search-btn">Search</button>
+                    </div>
+
+                    <!--Clear Result Button-->
+                    <div class="col-ls-2">
+                        <button type="button" class="btn btn-light" id="clear-btn">Clear Result</button>
+                    </div>
+                </div>         
+            </div>
+
+            <!------Top Article Display-------->
+            <div class="card" style="width: 100%;" id="top-article">
+                <div class="card-header" style="font-weight: bold;">
+                  Top Articles
+                </div>     
+                <br>
+                <br>   
+            </div>
+        </div>
+
+        <div class="sticky-bottom">
+            <footer class="footer">
+                <p class="footer-bottom-text">&copy;Copyright</p>
+            </footer>
+        </div>
 
 
         <!--bootstrap link-->

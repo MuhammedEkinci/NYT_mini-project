@@ -1,0 +1,35 @@
+.title-container {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(26, 56, 155);
+    color: white;
+}
+
+.input-container {
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 80%;
+    padding: 20px;
+}
+
+.user-input {
+    padding: 10px;
+}
+
+.btn {
+    margin: 0 0 10px 20px;
+}
+
+#top-article {
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    background: rgb(37, 49, 158);
+    line-height: 75px;
+    color: white;
+}
+
+
