@@ -97,22 +97,21 @@
 
         <!--javascript link-->
         <script src="javascript.js">
-             $(".gif").on("click", function() {
-      var keyWord = "syria";
-      var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" +
-        keyWord + "&api_key=1uM19KBIGq4Wgtx4Pr2Yf5oVZUeWGRfW"
+        $(".gif").on("click", function() {
+            var keyWord = "syria";
+            var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" +
+            keyWord + "&api_key=1uM19KBIGq4Wgtx4Pr2Yf5oVZUeWGRfW"
 
              
-      $.ajax({
-        url: queryURL,
-        method: "GET"
-      }
-)
-.then(function(response) {
-          console.log(response)
+            
+            $.ajax({
+            url: queryURL,
+            method: "GET"
+            }).then(function(response) {
+            console.log(response)
+            });   
         });   
-    });   
- 
+
         </script>
     </body>
 </html>
